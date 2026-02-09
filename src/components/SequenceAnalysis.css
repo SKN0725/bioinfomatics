@@ -1,0 +1,213 @@
+.seq-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: #f5f7fa;
+  min-height: 70vh;
+}
+
+.seq-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 1170px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.seq-subtitle {
+  margin: 0.5rem 0 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.seq-tabs {
+  display: flex;
+  gap: 0.1rem;
+  margin-bottom: 1rem;
+  background: #ececf0;
+  padding: 2px;
+  height: 34px;
+  border-radius: 14px;
+}
+
+.seq-tabs button {
+  flex: 1;
+  padding: 1 rem;
+  border: none;
+  background: #ececf0;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+}
+
+.seq-tabs button.seq-active {
+  background: white;
+  color: black;
+}
+
+.seq-tab-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ 
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+}
+
+textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 0.6rem;
+  background-color: #f3f3f5;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: monospace;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0.2, 0.2, 0.2, 0.2);
+  transition: all 0.25s ease;
+}
+
+.seq-upload {
+  display: flex;
+  align-items: center;
+  gap: 50rem;
+}
+
+.seq-upload-btn {
+  padding: 0.6rem 1rem;
+  border: 0.3px solid #ececf0;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.seq-upload-btn:hover {
+  background: #ececf0;
+}
+
+.seq-status {
+  font-weight: 600;
+}
+
+.seq-status.invalid {
+  color: red;
+}
+
+.seq-status.valid {
+  color: green;
+}
+
+.seq-btn-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-style: 14px;
+    margin-top: 6px;
+    padding-left: 12px;
+     gap: 10px;
+}
+.seq-btn-grid button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 780px;
+}
+
+button {
+  padding: 0.6rem;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  border: 1px solid #dcdcdf;
+}
+
+button:hover {
+  background: #ececf0;
+}
+
+button.seq-full {
+  font-size: 14px;  
+  width: 140px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.res-export{
+    display: flex;
+    gap: 865px;
+}
+
+/* Mutation tab grid */
+.seq-mutation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2px;
+}
+.seq-full-GC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+.seq-full-GC:hover{
+    background-color: #3f3e3e;
+    color: white;
+}
+.seq-full-orf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+.seq-full-orf:hover{
+    background-color: #3f3e3e;
+    color: white;
+}
+.seq-full-mut{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+    background: black;
+    color: white;
+    font-weight: 600;
+}
+.seq-full-mut:hover{
+    background-color: #3f3e3e;
+    color: white;
+}
