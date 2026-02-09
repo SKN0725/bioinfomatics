@@ -108,9 +108,7 @@ export default function SequenceAnalysis() {
             </div>
 
             <button className="seq-full-mut">Compare & Find Mutations</button>
-
-            <label>Detected Mutations</label>
-            <textarea readOnly placeholder="Mutations will appear here..." />
+            
           </div>
         )}
       </div>

@@ -11,6 +11,7 @@ import brainbw from './pic/brainbw.png';
 import flaskbw from './pic/flaskbw.png';
 import problem from './pic/problem.png';
 import SequenceAnalysis from './components/SequenceAnalysis';
+import ProteinModel from './components/ProteinModule';
 
 import './App.css';
 import { useState } from 'react';
@@ -92,7 +93,8 @@ function App() {
   </div>
 </div>
 {/*Module containers*/}
-<SequenceAnalysis/>
+{/*<SequenceAnalysis/>*/}
+<ProteinModel/>
 
 
   <div id="cards" className='container'>
