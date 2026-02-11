@@ -1,5 +1,5 @@
-.body{
-    background: rgba(237, 254, 254);
+body{
+    background-color: rgba(237, 254, 254);
 }
 #header1{
     background: linear-gradient(to right, #0f1a2d, #0e4646);

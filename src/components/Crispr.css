@@ -1,0 +1,102 @@
+.crispr-wrap{
+    display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(237, 254, 254);
+  min-height: 70vh;
+}
+.crispr-card{
+     background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 1170px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+.crispr-desc {
+  margin: 0.5rem 0 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+textarea {
+  width: 100%;
+  min-height: 60px;
+  padding: 0.6rem;
+  background-color: #f3f3f5;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: monospace;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0.2, 0.2, 0.2, 0.2);
+  transition: all 0.25s ease;
+}
+.crispr-alert{
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 1100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 8px;
+  border: 1px solid rgb(207, 205, 205);
+  color: #7d7b7b;
+  font-size: 12px;
+  padding-bottom: 1px;
+  
+}
+.crispr-strong{
+    color: #000000;
+}
+.crispr-note{
+    color: #333;
+}
+.crispr-select{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2px;
+}
+.crispr-select{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 34px;
+    font-size: 14px;
+    background: white;
+    color: #333;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+    padding-bottom: 2px;
+
+}
+.crispr-btn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2px;
+}
+.crispr-btn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    font-size: 14px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 8px;
+}
+.crispr-btn:hover{
+  background-color: #3f3e3e;
+    color: white;
+}
+.crispr-desc{
+  margin-bottom: 5px;
+}
+

@@ -12,9 +12,10 @@ import flaskbw from './pic/flaskbw.png';
 import problem from './pic/problem.png';
 import SequenceAnalysis from './components/SequenceAnalysis';
 import ProteinModel from './components/ProteinModule';
-
+import LIMS from './components/LIMS';
 import './App.css';
 import { useState } from 'react';
+import CrisprGRNADesign from './components/CrisprGRNADesign';
 
 
 function App() {
@@ -93,8 +94,10 @@ function App() {
   </div>
 </div>
 {/*Module containers*/}
-{/*<SequenceAnalysis/>*/}
-<ProteinModel/>
+<SequenceAnalysis/>
+{/*<ProteinModel/>*/}
+{/*<CrisprGRNADesign/>*/}
+{/*<LIMS/>*/}
 
 
   <div id="cards" className='container'>
